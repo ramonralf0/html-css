@@ -1,0 +1,29 @@
+body{
+    color: black;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5bbe42;
+}
+
+h1 {
+    color:#5bbe42;
+}
+footer img{
+    width: 30px;
+    height: 30px;  
+}
+.container {
+padding: 0% 50px;
+}
+.style
+mark{
+    color: blue;
+}

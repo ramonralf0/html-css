@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML</title>
+</head>
+<body>
+   <h1>Imagem Dinamica</h1>
+   <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p> 
+
+   <picture>
+      <source media="(max-width: 750px)" srcset="imagem/foto-p.png" type="image/png">
+      <source media="(max-width: 1050px)" srcset="imagem/foto-m.png" type="image/png">
+      <img src="imagem/foto-g.png" alt="imagem flexivel">
+   </picture>
+
+   <h1>Reproduzindo Áudio</h1>
+   <p>Vamos aprender a reproduzir áudio em HTML.</p>
+   <audio src="midia/good-morning-reed-mathis.mp3" controls></audio> <!--MP3 HAV OGG -->
+   <audio preload="metadata" controls loop>
+      <source src="midia/guanacast-33.mp3" type="audio/mpeg"> 
+      <p>Infelismente seu navegador não consegue reproduzir áudio.<a href="midia/good-morning-reed-mathis.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+  </audio>
+</body>
+</html>

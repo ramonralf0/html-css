@@ -1,0 +1,47 @@
+div {
+    display: inline-block;
+    background-color: lightslategray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: yellow;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    text-align: bold;
+}
+
+a:visited {
+    color: crimson;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+a::after {
+    content: '[link]' ;
+    text-decoration: none;
+    font-weight: normal;
+    color: aqua;
+}
+h1{
+    height: 40px;
+    width:300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    
+
+}
